@@ -17,7 +17,9 @@ Focuses on measuring the observable `Z^n` (where `n` is the number of qubits), c
 
 ## Conclusion
 This project leverages Qiskit Aer's advanced simulation capabilities, including the `NoiseModel` class and `Estimator` methods, to explore and validate ZNE as a viable noise mitigation strategy in quantum computing.
-The circuit generator and noise model are limited in scope but the local unitary folding function, noise scaling and extrapolation techniques can work on any circuit with standard gates (for which the .inverse() method can be applied).
+
+The used circuit generator and noise model are limited in scope but the local unitary folding function, noise scaling and extrapolation techniques can work on any circuit with standard gates (for which the .inverse() method can be applied).
+
 Overall it was a fun project and a very interesting first hands-on approach to qiskit. :)
 
 ## Setup and Installation
