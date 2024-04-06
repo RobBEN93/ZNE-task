@@ -137,7 +137,7 @@ noise_model = NoiseModel()
 # Define probability of error
 p_error=0.001
 
-# Add depolarizing error to relevant single-qubit and two-qubit gates
+# Add depolarizing error to relevant single-qubit and two-qubit gates using Qiskit's pauli_error function
 
 single_qubit_depolar_error = pauli_error([
     ('I', 1 - p_error),
